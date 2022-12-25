@@ -1,0 +1,37 @@
+
+.header{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+#wrapper{
+    display:grid ;
+    place-items: center;
+}
+#paragraph{
+    margin-right: 50px;
+}
+#box{
+    display: flex;
+
+}
+.Section{
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px black;
+    border:2px solid black;
+    border-radius: 1em;
+    
+}
+.image{
+    
+    width: 200px;
+    height: 200px;
+    margin-right: auto; 
+    border:2px solid black;
+    box-shadow: 10px 10px 5px black;
+    align-content: left;
+    border-radius: 1em;
+}
