@@ -1,0 +1,145 @@
+.big-card{
+    width:30vmin;
+    border-radius: 1vmin;
+}
+.small-card{
+    width:12vmin;
+    border-radius: 2vmin;
+}
+.card{
+    aspect-ratio: 5/7;
+    background-color: rgba(255,255,255,0.5);
+    position:absolute;
+    transition: transform 800ms cubic-bezier(.05,.43,.25,.99);
+}
+#card-group,
+.card{
+    aspect-ratio: 5/7;
+}
+.header{
+   font-family: cursive;
+}
+.image{
+    
+    width: 200px;
+    height: 200px;
+    margin-right: auto; 
+    border:2px solid black;
+    box-shadow: 10px 10px 5px black;
+    align-content: left;
+    border-radius: 1em;
+}
+.text{
+    
+    margin-left: 1.1em;
+}
+.stars{
+    width: 200px;
+    height: 30px;
+    margin-right: auto;
+}
+.Section{
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px black;
+    border:2px solid black;
+    border-radius: 1em;
+    
+
+}
+#card-group,
+.big-card{
+    width:30vmin;
+}
+.big-card:nth-child(2)
+{
+    background-image: url('CardImages/Big1.jpg');
+    background-size: cover;
+    transform: translateX(-10%) rotate(-1deg)
+}
+.big-card:nth-child(4)
+{
+    background-image: url('CardImages/Big2.jpg');
+    background-size: cover;
+    transform: rotate(2deg);
+}
+.big-card:nth-child(6)
+{
+    background-image: url('CardImages/Big3.jpg');
+    background-size: cover;
+    transform: translateX(-6%) rotate(-3deg);
+}
+.big-card:nth-child(8)
+{
+    background-image: url('CardImages/Big4.jpg');
+    background-size: cover;
+    transform: translateX(10%,3%) rotate(5deg);
+}
+.small-card:nth-child(1)
+{
+    background-image: url('CardImages/Small1.webp');
+    background-size: cover;
+    transform: translateX(-10%) rotate(-1deg)
+}
+.small-card:nth-child(3)
+{
+    background-image: url('CardImages/Small2.jpg');
+    background-size: cover;
+    transform: rotate(2deg);
+}
+.small-card:nth-child(5)
+{
+    background-image: url('CardImages/Small3.webp');
+    background-size: cover;
+    transform: translateX(-6%) rotate(-3deg);
+}
+.small-card:nth-child(7)
+{
+    background-image: url('CardImages/Small4.webp');
+    background-size: cover;
+    transform: translateX(10%,3%) rotate(5deg);
+}
+#card-group:hover > .big-card:nth-child(2)
+{
+    transform: translate(-75%,16%) rotate(-24deg);
+}
+#card-group:hover > .big-card:nth-child(4)
+{
+    transform: translate(-25%,8%) rotate(-8deg);
+}
+#card-group:hover > .big-card:nth-child(6)
+{
+    transform: translate(25%,8%) rotate(8deg);
+}
+#card-group:hover > .big-card:nth-child(8)
+{
+    transform: translate(75%,16%) rotate(24deg);
+}
+#card-group:hover > .small-card:nth-child(1)
+{
+    transform: translate(200%,-160%) rotate(-15deg);
+}
+#card-group:hover > .small-card:nth-child(3)
+{
+    transform: translate(160%,170%) rotate(15deg);
+    z-index: 1;
+}
+#card-group:hover > .small-card:nth-child(5)
+{
+    transform: translate(-200%,-170%) rotate(15deg);
+}
+#card-group:hover > .small-card:nth-child(7)
+{
+    transform: translate(-280%,140%) rotate(-15deg);
+}
+#card-group{
+    display:grid;
+    place-items: center;
+}
+#ShowCase{
+    display:grid;
+    place-items: center;
+    padding-top: 6em;
+    height: auto;
+}

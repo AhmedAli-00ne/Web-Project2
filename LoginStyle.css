@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color:#ff7eee;
+}
+:root{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: white;
+    --text-secondary: #23232e;
+    --text-tertiary: #ff7eee;
+    --bg-primary: white;
+    --bg-secondary: #23232e;
+}
+#ButtonsWrapper{
+    display:flex;
+}
+#FormWrapper{
+    display:grid;
+    place-items: center;
+    overflow: auto;
+    padding-top:3em;
+}
+#LoginForm{
+    width:50%;
+    background-color: #23232e;
+    border-radius: 1em;
+}
+.LoginButton{ 
+    font-size: 20px; 
+    padding: 10px;
+    background-color: #23232e;
+    color:#ff7eee;
+    text-align: center;
+    width:50%;
+    height: 100%;
+}
+#FormText{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: unset;
+    font-stretch: expanded;
+    font-variant: small-caps;
+    text-align: center;
+    color: #ff7eee;
+}
+#Form{
+    display:grid;
+    padding-left: 20%;
+    overflow: auto;
+}
+input{
+    width: 80%;
+    height: 2em;
+    border-radius: 0.5em;
+    margin-bottom: 1.5em;
+}
+.LoginButton.ActiveSign{
+    background-color: #ff7eee;
+    color:#23232e;
+}
+.SignButton{
+    color: #ffffff;
+    background-color: #ff7eee;
+    border-color: transparent;
+    border-radius: .25rem;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    cursor: pointer;
+    transition: all .3s;
+}
+.SignButton:hover{
+    background-color: #df49a6;
+    color: 23232e;
+    border-radius : 1em;
+}
+input:focus{
+    background-color: #ff7eee;
+}
