@@ -217,3 +217,47 @@
   .solar #solarIcon {
     display: block;
   }
+.searchBar{
+  display:grid;
+  place-items: center;
+}
+.dark .searchBar input{
+  width: 50%;
+  height: 40px;
+  background-color:#1e1e24;
+  border-color:#df49a6;
+  color:#df49a6;
+  border-radius: 2em;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.light .searchBar input{
+  width: 50%;
+  height: 40px;
+  border-radius: 2em;
+  background-color:#edebe6;
+  border-color:#e4e4e4;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.solar .searchBar input{
+  width: 50%;
+  height: 40px;
+  background-color:#fdf6e3;
+  border-color:#f5e5b8;
+  border-radius: 2em;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.solar .searchBar input:focus{
+  outline: none;
+  border-color: #f5e5b8;
+}
+.dark .searchBar input:focus{
+  outline: none;
+  border-color: #df49a6;
+}
+.light .searchBar input:focus{
+  outline: none;
+  border-color: #e4e4e4;
+}
