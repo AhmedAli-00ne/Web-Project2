@@ -22,7 +22,7 @@
     <nav class="navbar">
         <ul class="navbar-nav">
           <li class="logo">
-            <a href="index.html" class="nav-link">
+            <a href="index.php" class="nav-link">
               <span class="link-text logo-text">Kharagny</span>
               <svg
                 aria-hidden="true"
@@ -51,7 +51,7 @@
           </li>
     
           <li class="nav-item">
-            <a href="restaurant.html" class="nav-link">
+            <a href="restaurant.php" class="nav-link">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -167,7 +167,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="Historical.html" class="nav-link">
+            <a href="Historical.php" class="nav-link">
               <svg
                 aria-hidden="true"
                 focusable="false"

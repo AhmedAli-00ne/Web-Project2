@@ -50,7 +50,7 @@
       </li>
 
       <li class="nav-item">
-        <a href="restaurant.html" class="nav-link">
+        <a href="restaurant.php" class="nav-link">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -137,7 +137,7 @@
       </li>
 
       <li class="nav-item">
-        <a href="Historical.html" class="nav-link">
+        <a href="Historical.php" class="nav-link">
           <svg
           aria-hidden="true"
           focusable="false"
