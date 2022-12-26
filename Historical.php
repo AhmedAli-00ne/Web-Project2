@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="LandingPageStyle.css" />
     <link rel="stylesheet" href="cardsstyle.css" />
     <link rel="stylesheet" href="imgHIS.css" />
+    <link rel="stylesheet" href="cardat.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Historical places</title>
@@ -310,30 +311,14 @@
       </nav>
       <main>
         <div id="wrapper">
-        <h1 class="header">Historical Places</h1>
-            <h3 style="margin-right: 90px;">PYRAMIDS</h3>
-            <div class="Section">   
-            <img class="image"src="Pyramids.avif" alt="picture of restaurants" style="float:left; ">
-            <p class="text">The Egyptian Pyramids are described as pyramid-shaped monuments, constructed mostly as funerary tombs and ceremonial complexes for the departed pharaohs during the Old Kingdom (2575 BC to 2150 BC) and Middle Kingdom (2050-1550 BC) periods.</p>
-            <div style="background: rgb(245, 241, 241); 
-            font-size: 20px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px;">
-            Book now 
+          <div class="wholeCard">
+            <h1>Pepe</h1>
+            <div class="cardHolder">
+              <div class="cardImg">asd</div>
+              <span class="cardDesc"><p> why donta4 take a bik4ar</p></span>
             </div>
-            </div>
-            <br>
-         
-            <br>
-            <div style="background: gray; 
-            font-size: 20px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px;">
-            Add to plan 
-            </div>
-</div>
+          </div>
+        </div>
       </main>
 </body>
 </html>
