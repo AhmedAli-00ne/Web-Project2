@@ -1,5 +1,7 @@
 <?php
+    ob_start();
     require('DBconnectionCred.php');
+    ob_end_clean();
     session_start();
 ?>
 <!DOCTYPE html>

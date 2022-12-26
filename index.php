@@ -1,5 +1,7 @@
 <?php
+    ob_start();
     require('DBconnectionIndex.php');
+    ob_end_clean();
     session_start();
 ?>
 <!DOCTYPE html>
