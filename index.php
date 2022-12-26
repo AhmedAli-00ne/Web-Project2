@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="LandingPageStyle.css"/>
     <link rel="stylesheet" href="cardsstyle.css"/>
     <link rel="stylesheet" href="christmas.css"/>
+    <script src="christmas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Kharagny</title>
@@ -358,6 +359,5 @@
       </div>
       </div>
       </main>
-      <script src="christmas.js"></script>
 </body>
 </html>

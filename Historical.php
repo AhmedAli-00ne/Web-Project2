@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="cardsstyle.css" />
     <link rel="stylesheet" href="imgHIS.css" />
     <link rel="stylesheet" href="cardat.css" />
+    <link rel="stylesheet" href="christmas.css"/>
+    <script src="christmas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Historical places</title>
@@ -83,7 +85,7 @@
           </li>
     
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="shopping.php" class="nav-link">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -323,6 +325,7 @@
               <div class='cardHolder'>
                 <div class='cardImg'>".'<img class="cardImgel" src="data:image/png;base64,'.base64_encode($row['photo']).'"/>'."</div>
                 <span class='cardDesc'><p>".$row['HTML']."</p></span>
+                <div class='detailBtn'>Details</div>
               </div>
             </div>";
             }

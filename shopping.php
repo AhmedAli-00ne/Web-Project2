@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    require('DBconnectionRest.php');
+    require('DBconnectionShopping.php');
     ob_end_clean();
     session_start();
 ?>
@@ -14,11 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script defer src="theme.js"></script>
     <link rel="stylesheet" href="LandingPageStyle.css" />
+    <link rel="stylesheet" href="cardsstyle.css" />
+    <link rel="stylesheet" href="imgHIS.css" />
+    <link rel="stylesheet" href="cardat.css" />
     <link rel="stylesheet" href="christmas.css"/>
     <script src="christmas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>     
-    <title>Restaurants</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <title>Kharagny-Shopping</title>
 </head>
 <body>
     <nav class="navbar">
@@ -140,7 +143,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="Historical.php" class="nav-link">
+            <a href="#" class="nav-link">
               <svg
               aria-hidden="true"
               focusable="false"
@@ -169,7 +172,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="Historical.php" class="nav-link">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -308,9 +311,27 @@
           </li>
         </ul>
       </nav>
-    
       <main>
-        
+        <div id="wrapper">
+          <?php
+          $sql = "SELECT * FROM sections";
+          $result = mysqli_query($conn, $sql);
+          $queryResults = mysqli_num_rows($result);
+          $quote = '"';
+          if ($queryResults > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+              echo "<div class='wholeCard'>
+              <h1 class='cardHeading'>" . $row['desc'] . "</h1>
+              <div class='cardHolder'>
+                <div class='cardImg'>".'<img class="cardImgel" src="data:image/png;base64,'.base64_encode($row['photo']).'"/>'."</div>
+                <span class='cardDesc'><p>".$row['HTML']."</p></span>
+                <div class='detailBtn'>Details</div>
+              </div>
+            </div>";
+            }
+          }
+          ?>
+        </div>
       </main>
 </body>
 </html>
