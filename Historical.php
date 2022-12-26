@@ -311,13 +311,23 @@
       </nav>
       <main>
         <div id="wrapper">
-          <div class="wholeCard">
-            <h1>Pepe</h1>
-            <div class="cardHolder">
-              <div class="cardImg">asd</div>
-              <span class="cardDesc"><p> why donta4 take a bik4ar</p></span>
-            </div>
-          </div>
+          <?php
+          $sql = "SELECT * FROM sections";
+          $result = mysqli_query($conn, $sql);
+          $queryResults = mysqli_num_rows($result);
+          $quote = '"';
+          if ($queryResults > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+              echo "<div class='wholeCard'>
+              <h1 class='cardHeading'>" . $row['desc'] . "</h1>
+              <div class='cardHolder'>
+                <div class='cardImg'>".'<img class="cardImgel" src="data:image/png;base64,'.base64_encode($row['photo']).'"/>'."</div>
+                <span class='cardDesc'><p>".$row['HTML']."</p></span>
+              </div>
+            </div>";
+            }
+          }
+          ?>
         </div>
       </main>
 </body>
