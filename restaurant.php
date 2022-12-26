@@ -1,5 +1,5 @@
 <?php
-    require('DBconnection.php');
+    require('DBconnectionRest.php');
     session_start();
 ?>
 <!DOCTYPE html>
