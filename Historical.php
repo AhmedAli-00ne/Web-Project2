@@ -310,12 +310,17 @@
         </ul>
       </nav>
       <main>
+      <script src="christmas.js"></script>
         <div id="wrapper">
+        <h1>Historical</h1>
           <div class="wholeCard">
-            <h1>Pepe</h1>
+            
             <div class="cardHolder">
-              <div class="cardImg">asd</div>
-              <span class="cardDesc"><p> why donta4 take a bik4ar</p></span>
+              <div class="cardImg"></div>
+              <p>The Egyptian Pyramids are described as pyramid-shaped monuments, constructed mostly as funerary tombs and ceremonial complexes for the departed pharaohs during the Old Kingdom (2575 BC to 2150 BC) and Middle Kingdom (2050-1550 BC) periods.</p>
+              <span class="cardDesc"><p> </p></span>
+              <button class="button">Details</button>
+              
             </div>
           </div>
         </div>
