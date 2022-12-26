@@ -21,5 +21,5 @@ function makeSnowFlake()
 }
 for(let index = 0; index<50 ; index++)
 {
-    setTimeout(makeSnowFlake, index * 500);
+
 }
