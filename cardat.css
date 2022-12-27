@@ -1,4 +1,93 @@
 .wholeCard{
     display:grid;
-
+    width:82%;
+    margin-left:10%;
+    border-color:azure;
+    border-radius:25px;
+    margin-top:2em;
+}
+.cardImg{
+    width:20%;
+    height: 100%;
+    border-color:cornsilk;
+    background-size: cover;
+    color:transparent;
+    margin-right: 0.5rem;
+    border-radius: 2em 0 0 2em;
+}
+.cardHolder:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 1s;
+    box-shadow: 10px 10px 10px 10px #000;
+}
+.cardHolder{
+    border-radius: 2em;
+    width: 82%;
+    display:flex;
+    height: 8em;
+    box-shadow: 5px 5px 5px 5px #000;
+    border:5px;
+}
+.cardImgel{
+    height: 100%;
+    width:100%;
+    border-radius: 2em 0 0 2em;
+}
+.cardDesc{
+    overflow-wrap: break-word;
+    width:66%;
+}
+.cardHeading{
+    margin-left:30%;
+    margin-bottom:3%;
+}
+.dark .detailBtn{
+    font-size:40px;
+    padding-top:40px;
+    color:#ff7eee;
+    text-align: center;
+    width:20%;
+    height: 67%;
+    border-radius: 5px 25px 25px 5px;
+    border: 2px solid black;
+}
+.light .detailBtn{
+    font-size:40px;
+    padding-top:40px;
+    color:#23232e;
+    text-align: center;
+    width:20%;
+    height: 67%;
+    border-radius: 5px 25px 25px 5px;
+    border: 2px solid black;
+}
+.solar .detailBtn{
+    font-size:40px;
+    padding-top:40px;
+    color:#23232e;
+    text-align: center;
+    width:20%;
+    height: 67%;
+    border-radius: 5px 25px 25px 5px;
+    border: 2px solid black;
+}
+.dark .detailBtn:hover{
+    background-color: #ff7eee;
+    color:#23232e;
+    border-radius : 1em;
+    transition:all 1s;
+}
+.light .detailBtn:hover{
+    background-color: #23232e;
+    color:#edebe6;
+    border-radius : 1em 25px 25px 1em;
+    transition:all 1s;
+}
+.solar .detailBtn:hover{
+    background-color: #23232e;
+    color:#fff2cf;
+    border-radius : 1em 25px 25px 1em;
+    transition:all 1s;
 }

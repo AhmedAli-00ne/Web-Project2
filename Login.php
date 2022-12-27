@@ -25,7 +25,7 @@
         <div id="LoginForm">
             <div id="ButtonsWrapper">
                 <div class="LoginButton" id="SignInButton">
-                    SIGN IN.hhy
+                    SIGN IN
                 </div>
                 <div class="LoginButton ActiveSign" id="SignUpButton">
                     SIGN UP

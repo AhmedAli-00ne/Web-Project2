@@ -42,6 +42,5 @@
       </div>
       </main>
       <script src="addNavBar.js"></script>
-      <script src="theme.js"></script>
 </body>
 </html>
