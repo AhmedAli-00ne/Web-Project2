@@ -19,4 +19,6 @@ const themeMap = {
     localStorage.setItem('theme', next);
   }
   
-  document.getElementById('themeButton').onclick = toggleTheme;
+  document.getElementById('themeButton').addEventListener('click',function(){
+    toggleTheme();
+  });
