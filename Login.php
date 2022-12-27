@@ -39,20 +39,23 @@
                 <hr>
             </div>
             <div id="Form">
-                <form name="form1">
-                    <input type="text" name="FirstName" placeholder="First Name" class="SignUpText left"><br>
-                    <input type="text" name="LastName" placeholder="Last Name" class="SignUpText right"><br>
-                    <input type="number" name="PhoneNumber" placeholder="Phone Number" class="SignUpText left" minlength="11" maxlength="11"><br>
-                    <input type="number" name="Age" placeholder="Age" class="SignUpText right" min="16" max="100"><br>
-                    <input type="text" name="Email" placeholder="Email Adress" class="Mutual left"><br>
-                    <input type="text" name="Password" placeholder="Password" class="Mutual right" id="Password"><br>
-                    <input type="password" name="ConfirmPassword" placeholder="Confirm Password" class="SignUpText left"><br>
-                    <input type="submit" value="Sign Up       →" class="SignUpText SignButton" id="SignUp">
-                    <input type="submit" value="Sign In       →" class="SignInText SignButton" id="SignIn">
+                <form name="form1" method="post" action="register.php">
+                    <input type="text" name="FirstName" placeholder="First Name" class="SignUpText left" id="firstName"><br>
+                    <input type="text" name="LastName" placeholder="Last Name" class="SignUpText right" id="lastName"><br>
+                    <input type="number" name="PhoneNumber" placeholder="Phone Number" class="SignUpText left" minlength="11" maxlength="11" id="phoneNumber"><br>
+                    <input type="number" name="Age" placeholder="Age" class="SignUpText right" min="16" max="100" id="age"><br>
+                    <input type="text" name="Email" placeholder="Email Adress" class="Mutual left" class="email"><br>
+                    <input type="password" name="Password" placeholder="Password" class="Mutual right" class="password"><br>
+                    <input type="password" name="ConfirmPassword" placeholder="Confirm Password" class="SignUpText left" id="confirmPassword"><br>
+                    <input type="submit" value="Sign Up" class="SignUpText SignButton" id="SignUp">
+                </form>
+                <form name="form2" method="post" action="signIn.php">
+                    <input type="text" name="Email" placeholder="Email Adress" class="Mutual left" class="email"><br>
+                    <input type="password" name="Password" placeholder="Password" class="Mutual right" class="password"><br>
+                    <input type="submit" value="Sign In" class="SignInText SignButton" id="SignIn">
                 </form>
             </div>
         </div>
     </div>
-    <script src="Task3.js"></script>
 </body>
 </html>

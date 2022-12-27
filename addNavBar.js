@@ -31,7 +31,7 @@ $(document).ready(function(){
   </a>
 </li>
     <li class="nav-item">
-    <a href="#" class="nav-link">
+    <a href="account.php" class="nav-link">
       <svg
         aria-hidden="true"
         focusable="false"

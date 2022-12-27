@@ -68,11 +68,15 @@ input{
     box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
     cursor: pointer;
     transition: all .3s;
+    font-size: 1.5em;
+    width: 50%;
+    margin-left:3em;
 }
 .SignButton:hover{
     background-color: #df49a6;
     color: 23232e;
     border-radius : 1em;
+    transition: all 1s;
 }
 input:focus{
     background-color: #ff7eee;

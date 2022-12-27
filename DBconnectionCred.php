@@ -2,10 +2,10 @@
 $serverName = "localhost";
 $username = "root";
 $password = "";
+$dbname = "Credentials";
 
 try{
-    $conn = new PDO("mysql:host=$serverName;dbname=Credential", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = new mysqli($serverName, $username, $password, $dbname);
     echo "Connected successfully";
 }
 catch(PDOException $e){

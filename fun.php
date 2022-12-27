@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    require('DBconnectionRest.php');
+    require('DBconnectionFun.php');
     ob_end_clean();
     session_start();
 ?>
@@ -18,7 +18,7 @@
     <script src="christmas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>     
-    <title>Restaurants</title>
+    <title>Kharagny-Fun</title>
 </head>
 <body>
       <main>

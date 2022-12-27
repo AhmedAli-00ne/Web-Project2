@@ -184,6 +184,7 @@
     --bg-secondary: #141418;
     color:#df49a6;
     background-color: #1e1e24;
+    text-shadow: #000 2px 2px 2px;
   }
   
   .light {
@@ -192,6 +193,7 @@
     --bg-primary: #ffffff;
     --bg-secondary: #e4e4e4;
     background-color: #edebe6;
+    text-shadow: #fff 2px 2px 2px;
   }
   
   .solar {
@@ -200,6 +202,7 @@
     --bg-primary: #fdf6e3;
     --bg-secondary: #f5e5b8;
     background-color: #fff2cf;
+    text-shadow: #fdf6e3 2px 2px 2px;
   }
   
   .theme-icon {

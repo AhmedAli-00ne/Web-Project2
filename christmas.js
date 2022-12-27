@@ -7,7 +7,7 @@ function makeSnowFlake()
     const duration = minDuration + Math.random() * 20;
 
     snowflake.classList.add("snowflake");
-    snowflake.style.left = `${Math.random() * window.screen.width}px`;
+    snowflake.style.left = `${Math.random() * window.screen.width-10}px`;
     snowflake.style.animationDelay = `${delay}s`;
     snowflake.style.opacity = initialOpacity;
     snowflake.style.animation = `fall ${duration}s linear`;

@@ -1,0 +1,19 @@
+#header{
+    display:grid;
+    place-items: center;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+#myCalendarButton{
+    color: #ffffff;
+    background-color: #ff7eee;
+    border-color: transparent;
+    border-radius: .25rem;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 1.5em;
+    width: 20%;
+    height: 100%;
+    margin-left:3em;
+}

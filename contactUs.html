@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="LandingPageStyle.css"/>
+    <link rel="stylesheet" href="cardsstyle.css"/>
+    <link rel="stylesheet" href="christmas.css"/>
+    <script src="christmas.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <title>Kharagny</title>
+</head>
+<body>
+      <main>
+            <div class="navBar">
+                  <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                  </div>
+                  <div class="navLinks">
+                        <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="aboutUs.html">About Us</a></li>
+                              <li><a href="contactUs.html">Contact Us</a></li>
+                              <li><a href="login.html">Login</a></li>
+                        </ul>
+                  </div>
+            </div>
+            <div class="contactUs">
+                  <div class="contactUsText">
+                        <h1>Contact Us</h1>
+                        <p>Feel free to contact us for any inquiries or suggestions</p>
+                  </div>
+                  <div class="contactUsForm">
+                        <form action="contactUs.php" method="POST">
+                              <input type="text" name="name" placeholder="Name" required>
+                              <input type="email" name="email" placeholder="Email" required>
+                              <input type="text" name="subject" placeholder="Subject" required>
+                              <textarea name="message" placeholder="Message" required></textarea>
+                              <button type="submit" name="submit">Send</button>
+                        </form>
+                  </div>
+            </div>
+      </main>
+      <script src="addNavBar.js"></script>
+</body>
+</html>
