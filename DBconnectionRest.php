@@ -1,11 +1,10 @@
 <?php
-$serverName = "156.214.74.189"
-$username = "root"
-$passowrd = ""
-
+$serverName = "156.214.74.189";
+$username = "root";
+$passowrd = "";
+$dbname = "Restaurants";
 try{
-    $conn = new PDO("mysql:host=$serverName;dbname=Restaurants", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = new mysqli($serverName, $username, $password, $dbname);
     echo "Connected successfully";
 }
 catch(PDOException $e){
