@@ -35,6 +35,17 @@ if (!isset($_SESSION['Email'])) {
             <div id="myCalendar">
                 <button value="myCalendar" id="myCalendarButton">My Calendar</button>
             </div>
+            <div id="logOut">
+                <?php
+                    if (isset($_POST['logout'])) {
+                        session_destroy();
+                        header("Location: index.php");
+                    }
+                ?>
+                <form method="post">
+                    <input type="submit" name="logout" value="Log Out" id="logOutButton">
+                </form>
+            </div>
         </div>
       </main>
       <script src="addNavBar.js"></script>

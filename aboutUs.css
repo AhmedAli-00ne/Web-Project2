@@ -1,0 +1,27 @@
+.header{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+#wrapper{
+    display:grid ;
+    place-items: center;
+}
+#paragraph{
+    margin-right: 50px;
+}
+#box{
+    display: flex;
+
+}
+.Section{
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px black;
+    border:2px solid black;
+    border-radius: 1em;
+    
+}

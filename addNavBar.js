@@ -204,7 +204,7 @@ $(document).ready(function(){
 </li>
 
 <li class="nav-item">
-  <a href="contactUs.php" class="nav-link">
+  <a href="contactUs.html" class="nav-link">
     <svg
       aria-hidden="true"
       focusable="false"
